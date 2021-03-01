@@ -1,23 +1,20 @@
 import './App.css';
 import Header from './Components/Header';
+import Sidebar from './Components/Sidebar';
 
 function App() {
   return (
-    <div className="App">
-      {/* <h1>LinkedIn Clone</h1> */ }
-
-      {/* Header */ }
+    <div className="app">
       <Header />
-      {/* App Body  */ }
-      {/* Sidebar */ }
-      {/* Feed */ }
-      {/* Widgets */ }
-
-      <p>
-        Loren ipsum
-        </p>
+      <div className='app__body'>
+        {/* Sidebar */ }
+        <Sidebar />
+        {/* Feed */ }
+        {/* Widgets */ }
+      </div>
     </div>
   );
 }
+
 
 export default App;
