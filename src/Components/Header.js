@@ -1,7 +1,6 @@
 import React from 'react'
 import './Header.css';
 import SearchIcon from '@material-ui/icons/Search';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import HomeIcon from '@material-ui/icons/Home';
 import SupervisorAccountIcon from '@material-ui/icons/SupervisorAccount';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
@@ -15,10 +14,6 @@ function Header() {
         <div className='header'>
             <div className="header__left">
                 <img src="https://www.flaticon.com/svg/static/icons/svg/174/174857.svg" alt="In" />
-
-                {/* <div className="header__icon">
-                    <LinkedInIcon />
-                </div> */}
                 <div className="header__search">
                     <SearchIcon />
                     <input type="text" />
