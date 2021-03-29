@@ -14,3 +14,4 @@ const firebaseConfig = {
   const auth = firebase.auth();
 
   export { db, auth };
+  
