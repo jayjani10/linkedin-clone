@@ -25,7 +25,7 @@ function Header() {
                 <HeaderOption Icon={ BusinessCenterIcon } title='Jobs' />
                 <HeaderOption Icon={ ChatIcon } title='Messaging' />
                 <HeaderOption Icon={ NotificationsIcon } title='Notifications' />
-                <HeaderOption avatar="https://media-exp1.licdn.com/dms/image/C4E03AQE1BISx0KX4nw/profile-displayphoto-shrink_100_100/0/1611685166708?e=1620259200&v=beta&t=ocUHFI-qYopZ-zE71NaR4t2ysOC736iYRkUEDQvp_7k" title="me" />
+                <HeaderOption avatar="https://media-exp1.licdn.com/dms/image/C4E35AQHlcPexDrpuyg/profile-framedphoto-shrink_100_100/0/1616406608130?e=1617084000&v=beta&t=tmDCcHBsPHWac_Lfz8QhZ3FwArlg2fIbe-r47Y2mcIo" title="me" />
             </div>
         </div>
     )
